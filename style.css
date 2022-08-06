@@ -7,7 +7,7 @@ body {
 }
 
 .navbar.navbar-expand-lg{
-  background-color:#7c7183;
+  background-color:#bbb1c1;
   border: 2px solid black;
   margin-bottom: 1rem;
 }
@@ -30,7 +30,7 @@ h1{
 }
 
 .card-body{
-  background-color:#7c7183;
+  background-color:#bbb1c1;
 }
 
 
@@ -93,7 +93,10 @@ h1{
     font-size: 175%;
   }
 
-  
+  .card-body{
+    background-color:#bbb1c1;
+    height: 17rem;
+    overflow: hidden;}
 
   p {
     padding-top: 20px;
