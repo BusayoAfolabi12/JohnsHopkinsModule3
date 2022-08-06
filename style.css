@@ -6,69 +6,62 @@ body {
   box-sizing: border-box;
 }
 
-.navbar.navbar-expand-lg{
-  background-color:#bbb1c1;
+.navbar.navbar-expand-lg {
+  background-color: #bbb1c1;
   border: 2px solid black;
   margin-bottom: 1rem;
 }
 
-.nav-item{
+.nav-item {
   border: 1px solid black;
 }
 
-.navbar-nav.me-auto.mb-2.mb-lg-0.text-center{
+.navbar-nav.me-auto.mb-2.mb-lg-0.text-center {
   margin-top: 1rem;
 }
 
-h1{
+h1 {
   font-weight: bold;
   margin: 2rem;
 }
 
-.row{
+.row {
   display: inline-block;
 }
 
-.card-body{
-  background-color:#bbb1c1;
+.card-body {
+  background-color: #bbb1c1;
 }
 
-.card-text{
+.card-text {
   text-align: left;
   padding: 2rem;
 }
 
-
-
 /********** Large Devive Styles (Desktop) ***********/
 
 @media (min-width: 992px) {
-  
-  
-  .nav-item{
+  .nav-item {
     display: none;
   }
 
-  .navbar-toggler{
+  .navbar-toggler {
     display: none;
   }
 
   h1 {
     margin-top: 120px;
   }
-  
 }
 
 /********** Medium Devive Styles (Tablet) ***********/
 
 @media (min-width: 768px) and (max-width: 991px) {
-  
-  
-  .nav-item{
+  .nav-item {
     display: none;
   }
 
-  .navbar-toggler{
+  .navbar-toggler {
     display: none;
   }
 
@@ -76,27 +69,24 @@ h1{
     margin: 60px;
     font-size: 175%;
   }
-
-  
 }
 
 /********** Small Devive Styles***********/
 
 @media (max-width: 767px) {
-  
   h1 {
     margin: 50 0 10 0;
     font-size: 175%;
   }
 
-  .card-body{
-    background-color:#bbb1c1;
+  .card-body {
+    background-color: #bbb1c1;
     height: 17rem;
-    overflow: hidden;}
+    overflow: hidden;
+  }
 
-    .card-text{
-      text-align: left;
-      padding: 1rem;}
-
-  
+  .card-text {
+    text-align: left;
+    padding: 1rem;
+  }
 }
