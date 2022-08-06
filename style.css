@@ -33,6 +33,11 @@ h1{
   background-color:#bbb1c1;
 }
 
+.card-text{
+  text-align: left;
+  padding: 2rem;
+}
+
 
 
 /********** Large Devive Styles (Desktop) ***********/
@@ -50,11 +55,6 @@ h1{
 
   h1 {
     margin-top: 120px;
-  }
-  
-
-  p {
-    padding-top: 20px;
   }
   
 }
@@ -78,10 +78,6 @@ h1{
   }
 
   
-  p {
-    padding-top: 20px;
-  }
-  
 }
 
 /********** Small Devive Styles***********/
@@ -98,8 +94,9 @@ h1{
     height: 17rem;
     overflow: hidden;}
 
-  p {
-    padding-top: 20px;
-  }
+    .card-text{
+      text-align: left;
+      padding: 1rem;}
+
   
 }
