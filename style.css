@@ -1,0 +1,102 @@
+/********** Base Styles***********/
+
+body {
+  margin: auto;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.navbar.navbar-expand-lg{
+  background-color:#7c7183;
+  border: 2px solid black;
+  margin-bottom: 1rem;
+}
+
+.nav-item{
+  border: 1px solid black;
+}
+
+.navbar-nav.me-auto.mb-2.mb-lg-0.text-center{
+  margin-top: 1rem;
+}
+
+h1{
+  font-weight: bold;
+  margin: 2rem;
+}
+
+.row{
+  display: inline-block;
+}
+
+.card-body{
+  background-color:#7c7183;
+}
+
+
+
+/********** Large Devive Styles (Desktop) ***********/
+
+@media (min-width: 992px) {
+  
+  
+  .nav-item{
+    display: none;
+  }
+
+  .navbar-toggler{
+    display: none;
+  }
+
+  h1 {
+    margin-top: 120px;
+  }
+  
+
+  p {
+    padding-top: 20px;
+  }
+  
+}
+
+/********** Medium Devive Styles (Tablet) ***********/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  
+  
+  .nav-item{
+    display: none;
+  }
+
+  .navbar-toggler{
+    display: none;
+  }
+
+  h1 {
+    margin: 60px;
+    font-size: 175%;
+  }
+
+  
+  p {
+    padding-top: 20px;
+  }
+  
+}
+
+/********** Small Devive Styles***********/
+
+@media (max-width: 767px) {
+  
+  h1 {
+    margin: 50 0 10 0;
+    font-size: 175%;
+  }
+
+  
+
+  p {
+    padding-top: 20px;
+  }
+  
+}
